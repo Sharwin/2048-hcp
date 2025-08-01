@@ -8,6 +8,6 @@ module "ec2" {
   vpc_id  = module.vpc.vpc_id
   subnet_id = module.vpc.public_subnet_id
   key_pair_name = "bootcamp"
-  name = "Cloudcamp"
+  name = "Cloudcamp-hcp-vcs"
 }
 
