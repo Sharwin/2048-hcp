@@ -10,13 +10,13 @@
 # }
 
 
-terraform {
-  cloud {
-
-    organization = "cloudcamp-hcp"
-
-    workspaces {
-      name = "app-2048-hcp"
-    }
-  }
-}
+# terraform {
+#   cloud {
+# 
+#     organization = "cloudcamp-hcp"
+#
+#     workspaces {
+#       name = "app-2048-hcp"
+#     }
+#   }
+# }
